@@ -45,6 +45,7 @@ liArray.map((item) => {
   item.classList.add("item");
 });
 console.log(liArray);
+
 // Window
 titulo.addEventListener("click", () => {
   window.navigator.clipboard.writeText(titulo.innerText);
